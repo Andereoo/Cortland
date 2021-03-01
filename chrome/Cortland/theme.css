@@ -1,0 +1,22 @@
+@import "parts/buttons.css";
+@import "parts/entries.css";
+@import "parts/toolbox.css";
+@import "parts/headerbar.css";
+@import "parts/csd.css";
+@import "parts/tabsbar.css";
+@import "parts/findbar.css";
+@import "parts/sidebar.css";
+@import "parts/popups.css";
+@import "parts/remove-white-flash.css";
+@import "parts/icons.css";
+
+@import "parts/colors-light.css";
+@import "parts/colors-dark.css";
+
+/* Set theme version text in customization panel */
+#customization-footer::before {
+	content: "Cortland Firefox theme";
+	padding: 9px;
+}
+
+@namespace xul "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";

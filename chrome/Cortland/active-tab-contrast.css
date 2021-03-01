@@ -1,0 +1,7 @@
+/* Better active tab contrast */
+
+@namespace xul url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#alltabs-button {
+  visibility: visible !important;
+}

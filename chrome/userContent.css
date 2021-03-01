@@ -1,0 +1,32 @@
+@-moz-document url("about:newtab") {  
+	@media (prefers-color-scheme: light) {
+		body {
+			background-color: #ffffff !important;
+		}
+		.search-wrapper, .icon-settings{
+			display: none !important;
+		}
+		.tile, .screenshot, .top-site-icon, .ds-card, .ds-card-link, .card-outer {
+			border-radius: 10px !important;
+		}
+
+		.ds-image img, .card-preview-image-outer, .broken-image {
+			border-radius: 10px 10px 0px 0px !important;
+		}
+	}
+	@media (prefers-color-scheme: dark) {
+		body, .top-site-icon {
+			background-color: #2C2C2C !important;
+		}
+		.search-wrapper, .icon-settings{
+			display: none !important;
+		}
+		.tile, .screenshot, .top-site-icon, .ds-card, .ds-card-link, .card-outer {
+			border-radius: 10px !important;
+		}
+
+		.ds-image img, .card-preview-image-outer, .broken-image {
+			border-radius: 10px 10px 0px 0px !important;
+		}
+	}
+}
