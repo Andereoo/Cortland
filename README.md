@@ -1,5 +1,5 @@
 # Cortland
-A modern, macOS-inspired theme for Firefox
+A sleek, modern, macOS-inspired theme for Firefox
 
 
 ![image](/screenshots/cortland-screenshot.png)
