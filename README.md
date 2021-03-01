@@ -6,7 +6,10 @@ A sleek, modern, macOS-inspired theme for Firefox
 ## Description
 
 Cortland is a collection of CSS code that changes the look and feel of Firefox. 
-It supports both light and dark system themes.
+
+It turns the default UI of Firefox into an intuitive, modern interface, and supports both both light and dark themes, too!
+
+This theme currently supports macOS and linux. Windows is not supported yet. Firefox 70+ is recommended. 
 
 ## Installation
 
@@ -25,15 +28,15 @@ It supports both light and dark system themes.
 
 ## Issues and features
 
-#### Bugs
+### Bugs
 
 Think something is wrong? Create an [issue](https://github.com/Andereoo/Cortland/issue/) and I'll see what I can do.
 
-#### Feature request
+### Feature request
 
 It's always nice to see new features. If you think something would make Cortland even better, create an [issue](https://github.com/Andereoo/Cortland/issue/) and suggest your idea!
 
-#### Uninstallation
+### Uninstallation
 
 Still not content with this theme? Simply re-open your Firefox profile directore and remove the `chrome` folder. Then restart Firefox.
 
