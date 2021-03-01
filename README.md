@@ -20,7 +20,7 @@ This theme currently supports macOS and linux. Windows is not supported (yet). F
 5. Go to <ins>about:config</ins>. 
     * Click `Accept the Risk and Continue`. 
     * Search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to `true`.
-7. Open the Firefox menu and click `Customize...`. 
+7. Open the Firefox menu (☰) and click `Customize...`. 
     * Ensure that the `Title Bar` checkbox is unchecked. 
     * Drag the new tab button out of the tabbar and into the headerbar.
 9. Restart Firefox.
@@ -30,11 +30,11 @@ This theme currently supports macOS and linux. Windows is not supported (yet). F
 
 #### Bugs
 
-Think something is wrong? Create an [issue](https://github.com/Andereoo/Cortland/issue/) and I'll see what I can do.
+Think something is wrong? Create an [issue](https://github.com/Andereoo/Cortland/issues/) and I'll see what I can do.
 
 #### Feature request
 
-It's always nice to see new features. If you think something would make Cortland even better, create an [issue](https://github.com/Andereoo/Cortland/issue/) and suggest your idea!
+It's always nice to see new features. If you think something would make Cortland even better, create an [issue](https://github.com/Andereoo/Cortland/issues/) and suggest your idea!
 
 #### Uninstallation
 
