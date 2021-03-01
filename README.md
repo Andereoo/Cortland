@@ -14,7 +14,7 @@ This theme currently supports macOS and linux. Windows is not supported (yet). F
 ## Installation
 
 1. Download this project.
-2. Go to [about:support](about:support).
+2. Go to <a href="about:support">about:support</a>.
 3. Under `Application Basics` > `Profile Directory`, click the `Open Directory` button.
 4. Copy the `chrome` folder from this project into the profile directory folder.
 5. Go to [about:config](about:config). 
