@@ -14,10 +14,10 @@ This theme currently supports macOS and linux. Windows is not supported (yet). F
 ## Installation
 
 1. Download this project.
-2. Go to <a href="about:support">about:support</a>.
+2. Go to <ins>about:support</ins> in Firefox.
 3. Under `Application Basics` > `Profile Directory`, click the `Open Directory` button.
 4. Copy the `chrome` folder from this project into the profile directory folder.
-5. Go to [about:config](about:config). 
+5. Go to <ins>about:config</ins>. 
     * Click `Accept the Risk and Continue`. 
     * Search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to `true`.
 7. Open the Firefox menu and click `Customize...`. 
