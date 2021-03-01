@@ -5,19 +5,19 @@ A sleek, modern, macOS-inspired theme for Firefox
 
 ## Description
 
-Cortland is a collection of CSS code that changes the look and feel of Firefox. 
+This is is a collection of CSS code that changes the look and feel of Firefox. 
 
-It turns the default UI of Firefox into an intuitive, modern interface, and supports both both light and dark themes, too!
+Cortland the default UI of Firefox into an intuitive, modern interface, and supports both both light and dark themes, too!
 
 This theme currently supports macOS and linux. Windows is not supported (yet). Firefox 70+ is recommended. 
 
 ## Installation
 
 1. Download this project.
-2. Go to about:support using Firefox's urlbar.
+2. Go to [about:support](about:support).
 3. Under `Application Basics` > `Profile Directory`, click the `Open Directory` button.
 4. Copy the `chrome` folder from this project into the profile directory folder.
-5. Go to about:config. 
+5. Go to [about:config](about:config). 
     * Click `Accept the Risk and Continue`. 
     * Search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to `true`.
 7. Open the Firefox menu and click `Customize...`. 
