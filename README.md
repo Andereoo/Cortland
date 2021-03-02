@@ -38,7 +38,7 @@ It's always nice to see new features. If you think something would make Cortland
 
 #### Uninstallation
 
-Still not content with this theme? Simply re-open your Firefox profile directory and remove the `chrome` folder. Then restart Firefox.
+Still not content with this theme? Simply re-open your Firefox profile directory and delete the `chrome` folder. Then restart Firefox. This will return Firefox to the default theme.
 
 ## Credits
 
