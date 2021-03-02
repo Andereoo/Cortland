@@ -1,5 +1,5 @@
 # Cortland
-A sleek, modern, macOS-inspired theme for Firefox
+A sleek, modern, macOS-inspired theme for Firefox.
 
 ![image](/screenshots/cortland-screenshot.png)
 
@@ -7,7 +7,7 @@ A sleek, modern, macOS-inspired theme for Firefox
 
 This is is a collection of CSS code that changes the look and feel of Firefox. 
 
-Cortland the default UI of Firefox into an intuitive, modern interface, and supports both both light and dark themes, too!
+Cortland turns the default UI of Firefox into an intuitive, modern interface, and supports both both light and dark themes, too!
 
 This theme currently supports macOS and linux. Windows is not supported (yet). Firefox 70+ is recommended. 
 
