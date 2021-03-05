@@ -8,8 +8,8 @@ menupopup {
 	-moz-appearance: none !important;
 	background: var(--cortland-menu-background) !important;
 	border: 1px solid var(--cortland-menu-border-color) !important;
-	border-radius: 10px;
-	opacity: 0.95;
+	border-radius: 10px !important;
+	opacity: 0.95 !important;
 	padding: 6px !important;
 	color: var(--cortland-toolbar-color) !important;
 }
@@ -23,22 +23,25 @@ menupopup menu, menupopup menuitem {
 	border-radius: 10px !important;
 }
 
+menu[_moz-menuactive="true"]:not([disabled="true"]), menuitem[_moz-menuactive="true"]:not([disabled="true"]) {
+    background-color: var(--cortland-popup-menuitem-hover-background) !important;
+	color: var(--cortland-popup-menuitem-hover-color) !important;
+}
+
+menu[_moz-menuactive="true"]:not([disabled="true"]):active, menuitem[_moz-menuactive="true"]:not([disabled="true"]):active {
+    background-color: var(--cortland-popup-menuitem-active-background) !important;
+	color: var(--cortland-popup-menuitem-active-color) !important;
+}
+
+menu[_moz-menuactive="true"][disabled="true"], menuitem[_moz-menuactive="true"][disabled="true"] {
+    background-color: transparent !important;
+}
+
+
 menuitem, menupopup menu {
 	-moz-appearance: none !important;
 	padding: 5px 7px !important;
 }
-
-
-menuitem:not([disabled="true"]):hover, menupopup menu:not([disabled="true"]):hover {
-	background-color: var(--cortland-popup-menuitem-hover-background) !important;
-	color: var(--cortland-popup-menuitem-hover-color) !important;
-}
-
-menuitem:not([disabled="true"]):active, menupopup menu:not([disabled="true"]):active {
-	background-color: var(--cortland-popup-menuitem-active-background) !important;
-	color: var(--cortland-popup-menuitem-active-color) !important;
-}
-
 
 menuitem[type="checkbox"] image, menuitem[type="radio"] image {
 	visibility: visible !important;
