@@ -3,6 +3,9 @@
 		body {
 			background-color: #ffffff !important;
 		}
+		.top-site-icon {
+			background-color: #babcbe !important;
+		}
 		.search-wrapper, .icon-settings{
 			display: none !important;
 		}
@@ -17,6 +20,9 @@
 	@media (prefers-color-scheme: dark) {
 		body, .top-site-icon {
 			background-color: #2C2C2C !important;
+		}
+		.top-site-icon {
+			background-color: #38383d !important;
 		}
 		.search-wrapper, .icon-settings{
 			display: none !important;
