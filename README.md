@@ -28,7 +28,9 @@ This theme currently supports MacOS and Linux. Windows is not supported (yet). F
 
 ## Additional notes
 
-If you are using Firefox Nightly or another version of Firefox with the proton theme, uncomment the line `/*@import "Cortland/proton-fixes.css"; /**/` in the `userChrome.css` file by removing the `/*` at the beginning of the line. Instead of clicking the menu (☰) and clicking `Customize...`, click `More tools`, and then click `Customize toolbar...`. 
+If you are using Firefox Nightly or another version of Firefox with the proton theme, uncomment the line `/*@import "Cortland/proton-fixes.css"; /**/` in the `userChrome.css` file by removing the `/*` at the beginning of the line. 
+
+Instead of clicking the menu (☰) and clicking `Customize...`, click `More tools`, and then click `Customize toolbar...`. 
 
 ## Issues and features
 
