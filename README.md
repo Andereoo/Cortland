@@ -9,7 +9,7 @@ This is is a collection of CSS code that changes the look and feel of Firefox.
 
 Cortland turns the default UI of Firefox into an intuitive, modern interface, and supports both both light and dark themes, too!
 
-This theme currently supports macOS and linux. Windows is not supported (yet). Firefox 70+ is recommended. 
+This theme currently supports MacOS and Linux. Windows is not supported (yet). Firefox 70+ is recommended. 
 
 ## Installation
 
@@ -25,6 +25,10 @@ This theme currently supports macOS and linux. Windows is not supported (yet). F
     * Drag the new tab button out of the tabbar and into the headerbar.
 9. Restart Firefox.
 10. Enjoy your new Firefox theme!
+
+## Additional notes
+
+If you are using Firefox Nightly or another version of Firefox with the proton theme, uncomment the line `/*@import "Cortland/proton-fixes.css"; /**/` in the `userChrome.css` file by removing the `/*` at the beginning of the line. Instead of clicking the menu (☰) and clicking `Customize...`, click `More tools`, and then click `Customize toolbar...`. 
 
 ## Issues and features
 
