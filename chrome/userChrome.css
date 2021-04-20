@@ -1,13 +1,17 @@
 
 /* Import theme */
 
-@import "Cortland/theme.css"; /**/
+@import "Cortland/theme.css";
 
 /*
  * Here you can enable other theme features not included by default.
  * To enable a specific feature, uncomment its @import line by removing "/*" at
  * the beginning of the line. To disable it, put the "/*" back.
  */
+ 
+/* Fix issues with Firefox Proton UI */
+/*@import "Cortland/proton-fixes.css"; /**/
+
 
 /* Limit the URL bar's autocompletion popup's width to the URL bar's width (GNOMISH) 
  * This feature is included by default for Firefox 70+. */
