@@ -1,0 +1,83 @@
+@namespace xul "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
+
+/* Proton fixes */
+.tab-background {
+	border-radius: 0px !important;
+	margin: 0px !important;
+}
+.tabbrowser-tab:not(:hover) > .tab-stack > .tab-content > .tab-close-button {
+    width: 16px !important;
+    padding-inline-start: none !important;
+}
+.tabbrowser-tab > .tab-stack > .tab-content > .tab-close-button {
+    width: 16px !important;
+    height: 16px !important;
+}
+.tabbrowser-tab {
+	padding: 0px !important;
+}
+.tab-content{
+	justify-content: center !important;
+}
+.tab-label-container, .tab-icon-stack {
+	flex: 1;
+}
+
+#tabs-newtab-button .toolbarbutton-icon {
+	width: 32px !important;
+	height: 32px !important;
+	padding: 8px !important
+}
+
+#identity-icon-box {
+	background-color: transparent !important;
+}
+
+.tabbrowser-tab {
+  height:100% !important;
+  min-height: 100% !important;
+}
+
+.tab-close-button {
+	padding: 2px !important;
+}
+
+.tabbrowser-tab:not(:hover) > .tab-stack > .tab-content > .tab-close-button {
+    padding-inline-start: revert;
+}
+
+#downloadsPanel, #widget-overflow, #appMenu-popup, #customizationui-widget-panel, #identity-popup, #permission-popup, #protections-popup, #editBookmarkPanel {
+	margin-top: 0px !important;
+}
+
+#identity-popup-clear-sitedata-button .button-text, #identity-popup-more-info .button-text {
+  margin-top: 4px !important;
+}
+
+#identity-popup-clear-sitedata-button, #identity-popup-more-info {
+  margin-top: 8px !important;
+}
+
+label {
+    margin: 3px 3px !important;
+}
+
+#protections-popup-tp-switch-section {
+  border: 0px solid black !important;
+}
+
+#protections-popup[hasException] #protections-popup-tp-switch-section,
+#protections-popup[hasException] #protections-popup-mainView-panel-header{
+	background: transparent !important;
+	border: 0px solid black !important;
+}
+
+#protections-popup-mainView-panel-header {
+	background: transparent !important;
+	border: 0px solid black !important;
+}
+
+/* #new-tab-button{
+	list-style-image: url("../icons/add-proton.svg") !important;
+} */
+
