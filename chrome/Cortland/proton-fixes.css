@@ -6,12 +6,12 @@
 	margin: 0px !important;
 }
 .tabbrowser-tab:not(:hover) > .tab-stack > .tab-content > .tab-close-button {
-    width: 16px !important;
-    padding-inline-start: none !important;
+	width: 16px !important;
+	padding-inline-start: none !important;
 }
 .tabbrowser-tab > .tab-stack > .tab-content > .tab-close-button {
-    width: 16px !important;
-    height: 16px !important;
+	width: 16px !important;
+	height: 16px !important;
 }
 .tabbrowser-tab {
 	padding: 0px !important;
@@ -34,8 +34,8 @@
 }
 
 .tabbrowser-tab {
-  height:100% !important;
-  min-height: 100% !important;
+	height:100% !important;
+	min-height: 100% !important;
 }
 
 .tab-close-button {
@@ -43,7 +43,7 @@
 }
 
 .tabbrowser-tab:not(:hover) > .tab-stack > .tab-content > .tab-close-button {
-    padding-inline-start: revert;
+	padding-inline-start: revert;
 }
 
 #downloadsPanel, #widget-overflow, #appMenu-popup, #customizationui-widget-panel, #identity-popup, #permission-popup, #protections-popup, #editBookmarkPanel {
@@ -51,19 +51,19 @@
 }
 
 #identity-popup-clear-sitedata-button .button-text, #identity-popup-more-info .button-text {
-  margin-top: 4px !important;
+	margin-top: 4px !important;
 }
 
 #identity-popup-clear-sitedata-button, #identity-popup-more-info {
-  margin-top: 8px !important;
+	margin-top: 8px !important;
 }
 
 label {
-    margin: 3px 3px !important;
+	margin: 3px 3px !important;
 }
 
 #protections-popup-tp-switch-section {
-  border: 0px solid black !important;
+	border: 0px solid black !important;
 }
 
 #protections-popup[hasException] #protections-popup-tp-switch-section,
@@ -78,18 +78,18 @@ label {
 }
 
 .tab-content {
-  display: grid;
-  grid-template-columns: 1fr repeat(2, auto) 1fr;
-  grid-column-gap: 5px;
-  justify-items: center;
+	display: grid;
+	grid-template-columns: 1fr repeat(2, auto) 1fr;
+	grid-column-gap: 5px;
+	justify-items: center;
 }
 .tab-secondary-label {
-  visibility: collapse !important;
+	visibility: collapse !important;
 }
 .tab-icon-stack{
-  grid-column-start: 2;
+	grid-column-start: 2;
 }
 .tab-close-button{
-  margin-inline-end: 0px !important;
-  margin-left: auto !important;
+	margin-inline-end: 0px !important;
+	margin-left: auto !important;
 }
