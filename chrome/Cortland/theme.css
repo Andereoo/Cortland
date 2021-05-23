@@ -13,6 +13,8 @@
 @import "parts/colors-light.css";
 @import "parts/colors-dark.css";
 
+@import "proton-fixes.css";
+
 /* Set theme version text in customization panel */
 #customization-footer::before {
 	content: "Cortland Firefox theme";
