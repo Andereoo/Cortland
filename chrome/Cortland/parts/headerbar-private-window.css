@@ -1,0 +1,24 @@
+/* Private window headerbar */
+
+@namespace xul url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+
+:root[privatebrowsingmode="temporary"][tabsintitlebar] #nav-bar {
+	background: var(--cortland-toolbar-background-private) !important;
+	border: none !important;
+	padding: none !important;
+	margin: none !important;
+	box-shadow: none !important;
+}
+:root[privatebrowsingmode="temporary"][tabsintitlebar] #nav-bar:-moz-window-inactive {
+	background: var(--cortland-toolbar-inactive-background-private) !important;
+	border: none !important;
+	padding: none !important;
+	margin: none !important;
+	box-shadow: none !important;
+}
+
+/* Hide tabsbar default private browsing indicator */
+#TabsToolbar .private-browsing-indicator {
+	display: none !important;
+}

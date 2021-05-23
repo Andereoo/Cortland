@@ -1,0 +1,127 @@
+@namespace xul url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--cortland-selected-color: #ffffff;
+		--cortland-selected-background: #5294e2;
+
+		/* Browser area before a page starts loading */
+		--cortland-browser-before-load-background: #ffffff;
+		--cortland-browser-before-load-background-private: #25003e;
+
+		/* Toolbars */
+		--cortland-toolbar-background: #ffffff;
+		--cortland-toolbar-background-private: #25003e;
+		--cortland-toolbar-inactive-background-private: #3d0066;
+		--cortland-toolbar-color: #5c616c;
+		--cortland-toolbar-color-private: #ffffff;
+		--cortland-toolbar-border-color: #D9D9D9;
+		--cortland-inactive-toolbar-background: #ffffff;
+		--cortland-inactive-toolbar-border-color: #dddddd;
+
+		/* Sidebar */
+		--cortland-sidebar-background: #fbfafa;
+		--cortland-sidebar-foreground: #000000;
+		--cortland-inactive-sidebar-background: #fbfafa;
+
+		/* Popups */
+		--cortland-menu-background: #ffffff;
+		--cortland-menu-border-color: #D9D9D9;
+		--cortland-popover-background: #ffffff;
+		--cortland-popup-menuitem-hover-background: #e6e5e4;
+		--cortland-popup-menuitem-hover-color: #5c616c;
+		--cortland-popup-menuitem-active-background: #0860F2;
+		--cortland-popup-menuitem-active-color: #ffffff;
+		--cortland-popover-border-color: #d5d1d1;
+		--cortland-popover-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+		--cortland-popover-separator-color: rgba(0, 0, 0, 0.1);
+
+		/* Header bar */
+		--cortland-headerbar-background: #ffffff;
+		--cortland-headerbar-border-color: #ffffff;
+		--cortland-headerbar-box-shadow: 0 1px #fff inset;
+		--cortland-inactive-headerbar-background: rgba(46, 52, 54, 0.09);
+		--cortland-inactive-headerbar-border-color: #dddddd;
+		--cortland-inactive-headerbar-box-shadow: 0 1px #fff inset;
+
+		/* Buttons */
+		--cortland-button-background: #ffffff;
+		--cortland-button-color-private: #ffffff;
+		--cortland-button-border-color: #cfcfcf;
+		--cortland-button-border-width: 0px;
+		--cortland-button-border-accent-color: #D9D9D9;
+		--cortland-button-box-shadow: inset 0 1px white;
+		--cortland-button-hover-background: #E9E9E9;
+		--cortland-button-hover-background-private: #4a4a4a;
+		--cortland-button-active-background: #0860F2;
+		--cortland-button-active-border-color: #2679DB;
+		--cortland-button-active-border-accent-color: #2679DB;
+		--cortland-button-active-box-shadow: 0 1px rgba(255, 255, 255, 0) inset;
+		--cortland-button-disabled-background: transparent;
+		--cortland-button-disabled-border-color: #cdc7c2;
+		--cortland-button-disabled-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+		--cortland-inactive-button-background: #ffffff;
+		--cortland-inactive-button-border-color: #dddddd;
+		--cortland-inactive-button-box-shadow: 0 1px rgba(255, 255, 255, 0) inset;
+		--cortland-flat-button-hover-background: #f6f5f4;
+		--cortland-flat-button-active-background: #e6e5e4;
+		--cortland-copy-button-background: #0860F2;
+		--cortland-button-suggested-action-background: linear-gradient(to top, #2379e2 2px, #3584e4);
+		--cortland-button-suggested-action-border-color: #1b6acb;
+		--cortland-button-suggested-action-border-accent-color: #15539e;
+		--cortland-button-suggested-action-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.07);
+		--cortland-button-suggested-action-hover-background: linear-gradient(to top, #3584e4, #3987e5 1px);
+		--cortland-button-suggested-action-active-background: #1961b9;
+		--cortland-button-suggested-action-active-border-color: #1b6acb;
+		--cortland-button-suggested-action-active-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+		--cortland-button-destructive-action-background: #F8464C;
+		--cortland-button-destructive-action-border-color: #b2161d;
+		--cortland-button-destructive-action-border-accent-color: #851015;
+		--cortland-button-destructive-action-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.07);
+		--cortland-button-destructive-action-hover-background: #F95F64;
+		--cortland-button-destructive-action-active-background: #a0131a;
+		--cortland-button-destructive-action-active-border-color: #b2161d;
+		--cortland-button-destructive-action-active-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+
+		/* Entries */
+		--cortland-entry-background: #ffffff;
+		--cortland-entry-border-color: #98c3f4;
+		--cortland-entry-box-shadow: none;
+		--cortland-entry-color: #222222;
+		--cortland-inactive-entry-background: #fdfdfd;
+		--cortland-inactive-entry-border-color: #dddddd;
+		--cortland-inactive-entry-box-shadow: none;
+		--cortland-inactive-entry-color: #565656;
+		--cortland-focused-urlbar-border-color: #98c3f4;
+		--cortland-private-urlbar-background: #e6c2ff;
+
+		/* Switch */
+		--cortland-switch-background: #e1dedb;
+		--cortland-switch-border-color: #cdc7c2;
+		--cortland-switch-slider-background: linear-gradient(to bottom, white 10%, white 90%);
+		--cortland-switch-slider-border-color: #bfb8b1;
+		--cortland-switch-slider-box-shadow: inset 0 1px white, 0 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.07);
+		--cortland-switch-active-background: #3584e4;
+		--cortland-switch-active-border-color: #185fb4;
+		--cortland-switch-active-slider-border-color: #185fb4;
+
+		/* Tabs */
+		--cortland-tabbar-background: #e0e0e0;
+		--cortland-tabbar-tab-active-underline-color-left: #5800E2;
+		--cortland-tabbar-tab-active-underline-color-right: #FF00E6;
+		--cortland-tabbar-tab-color: #b0b6c3;
+		--cortland-tabbar-tab-hover-background: rgba(46, 52, 54, 0.01);
+		--cortland-tabbar-tab-hover-border-bottom-color: #a8c9f0;
+		--cortland-tabbar-tab-hover-color: rgb(93, 98, 99);
+		--cortland-tabbar-tab-active-background: white;
+		--cortland-tabbar-tab-active-background-contrast: transparent;
+		--cortland-tabbar-tab-active-border-bottom-color: #5294e2;
+		--cortland-tabbar-tab-active-border-bottom-color-contrast: #5294e2;
+		--cortland-tabbar-tab-active-color: rgb(46, 52, 54);
+		--cortland-tabbar-tab-active-hover-background: #ffffff;
+		--cortland-inactive-tabbar-tab-color: #8b8e8f;
+		--cortland-inactive-tabbar-tab-active-background: transparent;
+		--cortland-inactive-tabbar-tab-active-border-bottom-color: var(--cortland-tabbar-tab-active-border-bottom-color);
+		--cortland-inactive-tabbar-tab-active-color: var(--cortland-inactive-tabbar-tab-color);
+	}
+}
