@@ -26,8 +26,8 @@
 #search-box[focused], 
 .findbar-textbox[focused],
 .findbar-textbox:focus {
+	border: 1px solid var(--cortland-focused-urlbar-border-color) !important;
 	outline: 2px solid var(--cortland-focused-urlbar-border-color) !important;
-	outline-offset: -2px;
 	-moz-outline-radius: 10px;
 }
 
