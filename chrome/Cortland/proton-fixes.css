@@ -24,61 +24,45 @@
 	.tab-label-container, .tab-icon-stack {
 		flex: 1;
 	}
-
 	#tabs-newtab-button .toolbarbutton-icon {
 		width: 32px !important;
 		height: 32px !important;
-		padding: 8px !important;
+		padding: 8px !important
 	}
-
-	#identity-icon-box {
-		background-color: transparent !important;
-	}
-
 	.tabbrowser-tab {
-		height:100% !important;
-		min-height: 100% !important;
+	  height:100% !important;
+	  min-height: 100% !important;
 	}
-
 	.tab-close-button {
 		padding: 2px !important;
 	}
-
 	.tabbrowser-tab:not(:hover) > .tab-stack > .tab-content > .tab-close-button {
-		padding-inline-start: revert;
+	    padding-inline-start: revert;
 	}
-
 	#downloadsPanel, #widget-overflow, #appMenu-popup, #customizationui-widget-panel, #identity-popup, #permission-popup, #protections-popup, #editBookmarkPanel {
 		margin-top: 0px !important;
 	}
-
 	#identity-popup-clear-sitedata-button .button-text, #identity-popup-more-info .button-text {
 		margin-top: 4px !important;
 	}
-
 	#identity-popup-clear-sitedata-button, #identity-popup-more-info {
 		margin-top: 8px !important;
 	}
-
 	label {
 		margin: 3px 3px !important;
 	}
-
 	#protections-popup-tp-switch-section {
 		border: 0px solid black !important;
 	}
-
 	#protections-popup[hasException] #protections-popup-tp-switch-section,
 	#protections-popup[hasException] #protections-popup-mainView-panel-header{
 		background: transparent !important;
 		border: 0px solid black !important;
 	}
-
 	#protections-popup-mainView-panel-header {
 		background: transparent !important;
 		border: 0px solid black !important;
 	}
-
 	.tab-content {
 		display: grid;
 		grid-template-columns: 1fr repeat(2, auto) 1fr;
@@ -94,5 +78,37 @@
 	.tab-close-button{
 		margin-inline-end: 0px !important;
 		margin-left: auto !important;
+	}
+	.panel-arrowcontent{
+		margin: 0px !important;	
+	}
+	#protections-popup-blocking-section-header, #protections-popup-not-blocking-section-header, #protections-popup-not-found-section-header, #protections-popup-tp-switch-section, .protections-popup-category, .protections-popup-footer-button {
+		padding-top:0px;
+		padding-bottom:0px;
+	}
+	#protections-popup-blocking-section-header, #protections-popup-not-found-section-header, #protections-popup-not-blocking-section-header {
+		margin-top: 10px !important;
+	}
+	toolbarbutton {
+		padding: 3px 10px 3px 10px !important;
+	}
+	#appMenu-fxa-label2 {
+		max-height: 35px !important;
+	}
+	.panel-header {
+		padding-bottom: 0px !important;
+	}
+	menuitem, menupopup menu {
+		padding: 3px 10px !important
+	}
+	menuseparator {
+		margin-bottom: 2px !important;
+		margin-top: 2px !important;
+	}
+	.panel-subview-footer-button {
+		margin-bottom: 2px !important;
+	}
+	toolbarseparator:not([orient="vertical"]) {
+		margin: 4px 8px !important;
 	}
 }
