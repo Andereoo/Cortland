@@ -39,14 +39,6 @@ toolbarbutton[open="true"] .toolbarbutton-icon {
 	list-style-image: url("../icons/hide-active.png") !important;
 }
 
-
-
-
-
-
-
-
-
 :root[tabsintitlebar] #titlebar .titlebar-buttonbox .titlebar-close:-moz-window-inactive .toolbarbutton-icon,
 :root[tabsintitlebar] #titlebar #titlebar-close .toolbarbutton-icon {
 	list-style-image: url("../icons/window_button_unfocused.png");
@@ -68,7 +60,7 @@ toolbarbutton[open="true"] .toolbarbutton-icon {
 }
 
 #new-tab-button{
-	list-style-image: url("../icons/add.svg") !important;
+	list-style-image: url(chrome://global/skin/icons/add.svg) !important;
 }
 
 :root[tabsintitlebar] #titlebar .titlebar-buttonbox .titlebar-restore .toolbarbutton-icon,
@@ -107,4 +99,3 @@ toolbarbutton[open="true"] .toolbarbutton-icon {
 	color: var(--cortland-toolbar-color) !important;
 	font: menu !important;
 }
-
