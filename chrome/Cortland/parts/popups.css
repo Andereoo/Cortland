@@ -151,3 +151,19 @@ toolbarseparator:not([orient="vertical"]) {
 toolbarseparator[orient="vertical"] {
 	margin: 0 3px !important;
 }
+
+menupopup menuitem[type="radio"][checked="true"] image {
+list-style-image: url("chrome://global/skin/icons/radio.svg");
+-moz-context-properties: fill, fill-opacity;
+fill: var(--cortland-toolbar-color) !important;
+fill-opacity: 0.6;
+}
+menupopup menuitem[type="checkbox"][checked="false"] .menu-iconic-left {
+display:none;
+}
+menupopup menuitem[type="checkbox"][checked="true"] image {
+list-style-image: url("chrome://global/skin/icons/check.svg");
+-moz-context-properties: fill, fill-opacity;
+fill: var(--cortland-toolbar-color) !important;
+fill-opacity: 0.6;
+}
