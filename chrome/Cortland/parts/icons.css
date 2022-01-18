@@ -61,6 +61,7 @@ toolbarbutton[open="true"] .toolbarbutton-icon {
 
 #new-tab-button{
 	list-style-image: url(chrome://global/skin/icons/add.svg) !important;
+	list-style-image: url(chrome://global/skin/icons/plus.svg) !important;
 }
 
 :root[tabsintitlebar] #titlebar .titlebar-buttonbox .titlebar-restore .toolbarbutton-icon,
