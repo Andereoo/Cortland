@@ -20,9 +20,12 @@ This theme currently supports MacOS and Linux. Windows is not supported (yet). F
 5. Go to <ins>about:config</ins>. 
     * Click `Accept the Risk and Continue`. 
     * Search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to `true`.
-7. Open the Firefox menu (☰) and click `Customize...`. 
+6. Open the Firefox menu (☰) and click `Customize...`. 
     * Ensure that the `Title Bar` checkbox is unchecked. 
     * Drag the new tab button out of the tabbar and into the headerbar.
+7.  to <ins>about:addons</ins>.
+    * Click on the `Themes` button in the sidebar.
+    * Look for `System theme - auto` and click `enable` if it is disabled.
 9. Restart Firefox.
 10. Enjoy your new Firefox theme!
 
