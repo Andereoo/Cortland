@@ -25,7 +25,7 @@ This theme currently supports MacOS and Linux. Windows is not supported (yet). F
     * Drag the new tab button out of the tabbar and into the headerbar.
 7.  Go to <ins>about:addons</ins>.
     * Click on the `Themes` button in the sidebar.
-    * Look for `System theme - auto` and click `enable` if it is disabled.
+    * Look for `System theme - auto` and click `Enable` if it is disabled.
 9. Restart Firefox.
 10. Enjoy your new Firefox theme!
 
