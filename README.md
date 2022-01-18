@@ -23,7 +23,7 @@ This theme currently supports MacOS and Linux. Windows is not supported (yet). F
 6. Open the Firefox menu (☰) and click `Customize...`. 
     * Ensure that the `Title Bar` checkbox is unchecked. 
     * Drag the new tab button out of the tabbar and into the headerbar.
-7.  to <ins>about:addons</ins>.
+7.  Go to <ins>about:addons</ins>.
     * Click on the `Themes` button in the sidebar.
     * Look for `System theme - auto` and click `enable` if it is disabled.
 9. Restart Firefox.
