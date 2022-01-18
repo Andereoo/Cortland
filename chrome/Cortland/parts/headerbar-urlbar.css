@@ -80,7 +80,7 @@ toolbarspring {
 	margin-top: 2px !important;
 	margin-bottom: 2px !important;
 	padding: 8px !important;
-	background: var(--cortland-popover-background) !important;
+
 	border-top: 1px solid var(--cortland-entry-border-color) !important;
 	border-radius: 0 0 10px 10px !important;
 }
@@ -89,7 +89,6 @@ toolbarspring {
 	--toolbarbutton-active-background: transparent !important;
 	--toolbarbutton-hover-background: transparent !important;
 	-moz-appearance: none !important;
-	background: var(--cortland-button-background) !important;
 	padding: 0 2px !important;
 	min-height: 34px !important;
 	min-width: 34px !important;
