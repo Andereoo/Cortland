@@ -105,8 +105,46 @@
 		margin-bottom: 2px !important;
 		margin-top: 2px !important;
 	}
-	.panel-subview-footer-button {
-		margin-bottom: 2px !important;
+	
+	#PlacesToolbar menuitem, #PlacesToolbar menu, .subview-subheader, panelview .toolbarbutton-1, .subviewbutton, .widget-overflow-list .toolbarbutton-1 {
+	  margin: 0px !important;
+	}
+	.menupopup-arrowscrollbox {
+		background: transparent !important;
+		border: none !important;
+		box-shadow: none !important;
+		padding: 0px !important;
+	}
+	#identity-popup-security-button {
+	  margin: 4px 8px 8px 8px !important;
+	}
+	#protections-popup-show-report-button, #protections-popup-trackers-blocked-counter-box {
+		margin-bottom: 8px !important;
+	}
+	#protections-popup-tp-switch-section, .protections-popup-footer-button {
+	background: transparent !important;
+	}
+	#protections-popup-message {
+	margin: 10px !important;
+	}
+	.protections-popup-footer-button {
+	padding: 2px 8px !important;
+	}
+	.panel-subview-body  {
+		padding: 8px !important;
+		background: transparent !important;
+	}
+	.panel-header {
+		padding: 8px 8px 0px 8px !important
+	}
+	.panel-subview-footer-button  {
+		margin: 0px 8px 8px 8px !important;
+	}
+	.panel-arrowcontainer {
+	margin: -4px !important;
+	}
+	#overflowMenu-customize-button {
+		background: var(--cortland-button-background) !important;
 	}
 	toolbarseparator:not([orient="vertical"]) {
 		margin: 4px 8px !important;
